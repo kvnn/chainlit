@@ -43,9 +43,9 @@ const DetailsButton = ({ message, opened, onClick, loading }: Props) => {
 
   const text = loading
     ? tool
-      ? `Using ${tool}`
-      : 'Running'
-    : `Took ${stepCount} step${stepCount <= 1 ? '' : 's'}`;
+      ? `${tool}`
+      : ''
+    : `make ${stepCount} step${stepCount <= 1 ? '' : 's'}`;
 
   let id = '';
   if (tool) {

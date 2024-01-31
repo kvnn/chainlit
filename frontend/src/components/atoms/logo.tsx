@@ -13,6 +13,11 @@ export const Logo = ({ style }: Props) => {
   const apiClient = useRecoilValue(apiClientState);
 
   return (
-    <img src={apiClient.getLogoEndpoint(theme)} alt="logo" style={style} />
+    <img
+      id="logo"
+      src={apiClient.getLogoEndpoint(theme)}
+      alt="logo"
+      style={style}
+    />
   );
 };
