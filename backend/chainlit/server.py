@@ -211,8 +211,7 @@ def get_html_template():
     <meta property="og:type" content="website">
     <meta property="og:title" content="{config.ui.name}">
     <meta property="og:description" content="{config.ui.description}">
-    <meta property="og:image" content="https://chainlit-cloud.s3.eu-west-3.amazonaws.com/logo/chainlit_banner.png">
-    <meta property="og:url" content="{url}">"""
+    <meta property="og:image" content="https://oahu.bot/public/img/oahubot-brushbg.png">"""
 
     js = f"""<script>{f"window.theme = {json.dumps(config.ui.theme.to_dict())}; " if config.ui.theme else ""}</script>"""
 
