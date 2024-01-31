@@ -2,7 +2,7 @@ import { Stack, Typography } from '@mui/material';
 
 export default function WaterMark() {
   return (
-    <Stack mx="auto" className="watermark">
+    <Stack mx="auto" className="watermark oahubot">
       <a
         href="https://oahu.ai"
         target="_blank"
